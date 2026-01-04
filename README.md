@@ -57,6 +57,8 @@ customer-management-app/
       index.js
     .env.example
     package.json
+    data/
+      database.sqlite              # SQLite DB will be created here
   frontend/
     src/
       components/
@@ -66,8 +68,6 @@ customer-management-app/
       main.jsx
     .env.example
     package.json
-  data/               # SQLite DB will be created here
-  .gitignore
   README.md
 ```
 
